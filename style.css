@@ -1,0 +1,244 @@
+/* general colors and fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #F5F2E9; 
+    color: #2E482E; 
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EAE4D3;
+    padding: 10px 40px;
+    /* Darker color around Nav */
+}
+
+.logo img { /* logo in corner */
+    height: 60px; 
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2E482E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+} /* links underline when mouse is on them so user knows they can click */
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2E482E; /* Dark green */
+    padding: 5px;
+    color: white;
+}
+
+.hero1 h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Garden Info Section */
+.garden-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.garden-info .text {
+    width: 50%;
+    padding:10px;
+}
+
+.garden-info .image img {
+    width: 400px;
+    border-radius: 10px;
+}
+/* my story section*/
+
+.personal-story {
+    display: flex;
+    justify-content: center; /* centers the container horizontally */
+    padding: 40px 20px;
+}
+
+.story-container {
+    max-width: 600px; /* limit how wide it can get */
+    text-align: center; /* center the heading and paragraph */
+}
+
+/* Image Grid */
+.imagez {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagez img {
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #2E482E; /* Green border */
+}
+
+/* Footer */
+footer {
+    background-color: #EAE4D3;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    height: 30px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #2E482E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Contact Page */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #2E482E;
+    margin-bottom: 20px;
+}
+
+.contact1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-img {
+    width: 350px;
+    border-radius: 10px;
+    border: 3px solid #2E482E;
+}
+/* contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    background: #EAE4D3; 
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2E482E;
+}
+
+input, textarea {
+    width: 98%; /* form was hitting the edge */
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #2E482E;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2E482E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #1F3620;
+}
+/* Zone Section */
+.zone-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Zone Buttons */
+.zone-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap; /* NO wrapping onto a second line */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.zone-buttons button {
+    background-color: #083D16;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.zone-buttons button:hover {
+    background-color: #0A5020;
+}
+
+/* Zone Content */
+.zone-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+}
+
+.zone-content img {
+    width: 350px;
+    border: 3px solid #083D16;
+}
+
+.zone-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 400px;
+    text-align: left;
+}
